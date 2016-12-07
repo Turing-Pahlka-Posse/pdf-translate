@@ -22,9 +22,17 @@ end
 
 # cleans the rows
 @pages = @pages.map {|page| page.map {|row| clean_row(row) } }
-@pages.first.map {|row| row.map{|el| el.gsub(/\,/,"")}.join(",") }
+
+@pages.each_with_index do |page, i|
+  CSV.open("edu_data_#{i}.csv", "w") do |csv|
+    @pages[i].map do |row|
+      row.map{|el| el.gsub!(/\,/,"")}
+      csv << row
+    end
+  end 
+end
 
 # makes each page into its own
-@pages.each_with_index do |page, i|
-  File.write("edu_data_#{i}.txt", page.text)
-end
+# @pages.each_with_index do |page, i|
+#   File.write("edu_data_#{i}.txt", page)
+# end
