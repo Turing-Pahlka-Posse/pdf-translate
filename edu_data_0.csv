@@ -6,6 +6,7 @@ Total,instruction-related2,Support,services3,Total,Number,reporting5,Total,distr
 8,9,8,9,8,9,8,9,8,9,8,9,8,9
 State,Charter,Noncharter,Charter,Noncharter,Charter,Noncharter,Charter,Noncharter,Charter,Noncharter,Charter,Noncharter,Charter,Noncharter
 10
+med_spend_total_c, med_spend_total_nc, med_spend_instruction_related_c, med_spend_instruction_related_nc, med_spend_support_services_c, med_spend_support_services_nc, dist_total_c, dist_total_nc, dist_num_reporting_c, dist_num_reporting_nc, stud_total_c, stud_total_nc, stud_rep_dist_c, stud_rep_dist_nc
 Reporting,states,$8866,$10327,$5033,$6470,$3564,$3385,2720,10422,2291,9659,1210260,28198067,1108095,28159828
 Arizona,7169,7464,3694,4220,3031,2718,416,244,395,221,146529,911924,146188,910877
 Arkansas,7489,8966,4480,5789,2765,2646,17,247,17,227,8569,418457,8569,417932
